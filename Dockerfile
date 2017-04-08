@@ -1,4 +1,4 @@
-FROM boomalien/rpi-docker-python2
+FROM boomalien/rpi-alpine-python2
 
 RUN easy_install paho-mqtt && \
     easy_install pyserial && \
